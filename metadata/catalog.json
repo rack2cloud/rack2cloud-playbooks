@@ -1,0 +1,14 @@
+{
+     "playbooks": [
+       {
+         "slug": "ai-infrastructure",
+         "title": "AI Infrastructure",
+         "version": "2.1",
+         "last_updated": "2026-08-14",
+         "pillar": "ai-infrastructure",
+         "description": "...",
+         "related": ["ai-inference-cost-architecture", "kubernetes-day-2"],
+         "reading_time_minutes": 15
+       }
+     ]
+   }
