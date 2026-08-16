@@ -1,14 +1,156 @@
 {
-     "playbooks": [
-       {
-         "slug": "ai-infrastructure",
-         "title": "AI Infrastructure",
-         "version": "2.1",
-         "last_updated": "2026-08-14",
-         "pillar": "ai-infrastructure",
-         "description": "...",
-         "related": ["ai-inference-cost-architecture", "kubernetes-day-2"],
-         "reading_time_minutes": 15
-       }
-     ]
-   }
+  "catalog_version": "1.0",
+  "last_updated": "2026-08-15",
+  "note": "reading_time_minutes is an estimate (link density based), not a measured figure. github_path is URL-relative to the repo root and must be percent-encoded for spaces when built into the raw.githubusercontent.com fetch URL (n8n Code node handles this — see n8n-workflow-blueprint.md).",
+  "playbooks": [
+    {
+      "slug": "ai-infrastructure",
+      "title": "AI Infrastructure",
+      "pillar": "ai-infrastructure",
+      "pillar_label": "AI Infrastructure Architecture",
+      "pillar_color": "#ef4444",
+      "version": "1.3",
+      "last_updated": "2026-08-03",
+      "reading_time_minutes": 26,
+      "github_path": "AI Infrastructure Architeture/AI Infrastructure.md",
+      "description": "Private AI, sovereign data, and production-grade systems — hardware and cluster fundamentals, inference operations and cost, and the governance/control-plane problem agentic systems are creating.",
+      "related_playbooks": [
+        "ai-inference-cost-architecture",
+        "kubernetes-day-2",
+        "cloud-strategy"
+      ]
+    },
+    {
+      "slug": "ai-inference-cost-architecture",
+      "title": "AI Inference Cost Architecture",
+      "pillar": "ai-infrastructure",
+      "pillar_label": "AI Infrastructure Architecture",
+      "pillar_color": "#ef4444",
+      "version": "1.1",
+      "last_updated": "2026-08-03",
+      "reading_time_minutes": 16,
+      "github_path": "AI Infrastructure Architeture/AI Inference Cost Architecture Playbook.md",
+      "description": "The economic physics of production inference — execution budgets, model routing decisions, and cost observability before the bill arrives.",
+      "related_playbooks": [
+        "ai-infrastructure",
+        "cloud-strategy"
+      ]
+    },
+    {
+      "slug": "cloud-strategy",
+      "title": "Cloud Strategy",
+      "pillar": "cloud-strategy",
+      "pillar_label": "Cloud Strategy Architecture",
+      "pillar_color": "#a78bfa",
+      "version": "1.3",
+      "last_updated": "2026-08-03",
+      "reading_time_minutes": 22,
+      "github_path": "Cloud Strategy Architecture/Cloud Strategy.md",
+      "description": "The economic physics of cloud decisions, the strategic and governance layer, and the architecture references and tools to validate your environment before you commit to a direction.",
+      "related_playbooks": [
+        "ai-inference-cost-architecture",
+        "modern-infrastructure-iac",
+        "data-protection-architecture",
+        "virtualization-architecture"
+      ]
+    },
+    {
+      "slug": "virtualization-architecture",
+      "title": "Virtualization Architecture",
+      "pillar": "virtualization",
+      "pillar_label": "Virtualization Architecture",
+      "pillar_color": "#38bdf8",
+      "version": "1.2",
+      "last_updated": "2026-08-03",
+      "reading_time_minutes": 18,
+      "github_path": "Virtualization Architecture/Virtualization Arcitecture.md",
+      "description": "The Day-2 reality of running AHV in production, the physics of migration failure, and the post-Broadcom decision framework for what comes next.",
+      "related_playbooks": [
+        "deterministic-migration",
+        "modern-infrastructure-iac"
+      ]
+    },
+    {
+      "slug": "deterministic-migration",
+      "title": "Deterministic Migration",
+      "pillar": "virtualization",
+      "pillar_label": "Virtualization Architecture",
+      "pillar_color": "#38bdf8",
+      "version": "1.1",
+      "last_updated": "2026-08-03",
+      "reading_time_minutes": 17,
+      "github_path": "Virtualization Architecture/Deterministic Migration Playbook.md",
+      "description": "Execution physics, control-plane abstraction, and the reality of translating workloads from legacy monolithic hypervisors to distributed HCI — the Broadcom exit as an engineering correction, not a procurement exercise.",
+      "related_playbooks": [
+        "virtualization-architecture",
+        "kubernetes-day-2"
+      ]
+    },
+    {
+      "slug": "modern-infrastructure-iac",
+      "title": "Modern Infrastructure & IaC",
+      "pillar": "infrastructure-iac",
+      "pillar_label": "Modern Infrastructure & IaC Architecture",
+      "pillar_color": "#f59e0b",
+      "version": "1.1",
+      "last_updated": "2026-08-03",
+      "reading_time_minutes": 18,
+      "github_path": "Modern Infrastructure & IaC Architecture/Modern Infrastructure & IaC.md",
+      "description": "Infrastructure as a software system, not a snowflake museum — the foundational model, the IaC governance and operational layer, and the post-BSL Terraform decision.",
+      "related_playbooks": [
+        "kubernetes-day-2",
+        "cloud-strategy",
+        "deterministic-migration"
+      ]
+    },
+    {
+      "slug": "kubernetes-day-2",
+      "title": "Kubernetes Day 2",
+      "pillar": "infrastructure-iac",
+      "pillar_label": "Modern Infrastructure & IaC Architecture",
+      "pillar_color": "#f59e0b",
+      "version": "1.1",
+      "last_updated": "2026-08-03",
+      "reading_time_minutes": 17,
+      "github_path": "Modern Infrastructure & IaC Architecture/Kubernetes Day 2 Playbook.md",
+      "description": "The four control loops that govern Kubernetes failure in production — Compute, Network, Storage, and Identity — plus the platform failure modes post-mortems consistently miss.",
+      "related_playbooks": [
+        "modern-infrastructure-iac",
+        "data-protection-architecture",
+        "deterministic-migration"
+      ]
+    },
+    {
+      "slug": "data-protection-architecture",
+      "title": "Data Protection Architecture",
+      "pillar": "data-protection",
+      "pillar_label": "Data Protection Architecture",
+      "pillar_color": "#22c55e",
+      "version": "1.2",
+      "last_updated": "2026-08-03",
+      "reading_time_minutes": 19,
+      "github_path": "Data Protection Architecture/Data Protection Architecture.md",
+      "description": "Resilience engineering, not backup marketing — recovery fundamentals most teams get wrong, the adversarial threat layer, and platform decisions vendors don't document.",
+      "related_playbooks": [
+        "recovery-engineering",
+        "kubernetes-day-2"
+      ]
+    },
+    {
+      "slug": "recovery-engineering",
+      "title": "Recovery Engineering",
+      "pillar": "data-protection",
+      "pillar_label": "Data Protection Architecture",
+      "pillar_color": "#22c55e",
+      "version": "1.3",
+      "last_updated": "2026-08-03",
+      "reading_time_minutes": 19,
+      "github_path": "Data Protection Architecture/Recovery Engineering Playbook.md",
+      "description": "The operational doctrine of resilience failure — why systems that technically work still fail to recover, and why most recovery architectures are designed for the wrong failure mode.",
+      "related_playbooks": [
+        "data-protection-architecture",
+        "modern-infrastructure-iac"
+      ]
+    }
+  ]
+}
