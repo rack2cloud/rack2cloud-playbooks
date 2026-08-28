@@ -8,7 +8,7 @@ Architect,
 
 You requested the **Hidden Cost Models Playbook** - which tells me you are not here for generic cost-optimization checklists or vendor pricing comparisons.
 
-This path focuses on cost that architecture itself creates - invisible to procurement, budgeting, and governance review at the moment the decision producing it is made, surfacing only after the organization is already living with the consequence. The current taxonomy holds five confirmed mechanisms. What follows it is adjacent cost and governance context, plus the canonical specification this playbook is built against.
+This path focuses on cost that architecture itself creates — absent from the procurement, budgeting, operational, or governance review models used to evaluate the decision that creates it, surfacing only after the organization is already living with the consequence. What follows is the current taxonomy, adjacent territory, and the canonical specification this playbook is built against.
 
 **\>\_ SECTION 01: START HERE - THE HIDDEN COST MODELS TAXONOMY**
 
@@ -16,15 +16,15 @@ This is the current confirmed taxonomy membership - Part I frameworks, then Part
 
 - [AI Placement Decisions Are Architecture - Not Optimization](https://www.rack2cloud.com/ai-placement-latency-cost-tradeoff/) - Framework #81 Latency Debt and Framework #82 False Completion: the accrued cost of a deferred placement decision, and the metric failure that reports success while it's still accruing
 - [The Infrastructure Control Plane Is Consolidating](https://www.rack2cloud.com/infrastructure-control-plane-consolidation/) - Framework #115 Control Plane Capture: authority concentrating in a single vendor or platform control plane until alternatives become impractical - invisible in normal governance review because every individual consolidation step looked reasonable
-- [The CPU Is Back in the Stack - and Nobody Budgeted for It](https://www.rack2cloud.com/cpu-coordination-density-agentic-ai/) - Framework #132 Coordination Density: the orchestration and governance overhead required to produce a unit of agentic execution. The hidden thing isn't CPU utilization - everyone sees that. The hidden thing is that the coordination burden creating it has no column in any capacity or cost model built around Compute Density
-- [Strategic Governance (CS6)](https://www.rack2cloud.com/cloud-architecture-learning-path/governance-architecture/) - Framework #154 Governance Legitimacy Boundary and its Governance Theater failure state: governance structures that exist, are staffed, and are documented, but cannot produce a revocation decision, an audit result, or a challenge to a specific delegation
-- [Cloud Concentration Risk Has a Price Tag Now](https://www.rack2cloud.com/cloud-concentration-risk/) - Business Impact × Duration × Dependency Concentration = Exposure. No framework registry residency - included on mechanism, not on registry number, per the taxonomy's Part II structure
+- [The CPU Is Back in the Stack - and Nobody Budgeted for It](https://www.rack2cloud.com/cpu-coordination-density-agentic-ai/) - Framework #132 Coordination Density: the orchestration and governance overhead required to produce a unit of agentic execution. The hidden thing isn't CPU utilization — everyone sees that. The hidden thing is the coordination burden creating it, because the planning models evaluating agentic architectures were built around Compute Density and contain no representation of Coordination Density
+- [Strategic Governance (CS6)](https://www.rack2cloud.com/cloud-architecture-learning-path/governance-architecture/) - Framework #154 Governance Legitimacy Boundary: governance structures that possess formal legitimacy but cannot exercise authority when challenged, producing the Governance Theater failure state
+- [Cloud Concentration Risk Has a Price Tag Now](https://www.rack2cloud.com/cloud-concentration-risk/) - Business Impact × Duration × Dependency Concentration = Exposure. Included as a confirmed Part II model despite having no framework registry residency because the mechanism satisfies the qualification test independently of registry status
 
-A fifth candidate, Access Authorization Gap, is currently under evaluation against the qualification test and is not yet a confirmed member. Check the canonical spec (linked in Section 03) for current status before treating it as included.
+Access Authorization Gap is currently under evaluation against the qualification test and is not yet a confirmed member. Check the canonical specification (linked in Section 03) for current disposition before treating it as included.
 
 **\>\_ SECTION 02: GO DEEPER - ADJACENT COST AND GOVERNANCE CONTEXT**
 
-Territory that sits near the taxonomy without (yet) being part of it - useful context, not confirmed membership.
+Territory adjacent to the taxonomy: mechanisms, governance patterns, and cost discussions that share characteristics with Hidden Cost Models but have not been admitted as confirmed members.
 
 - [AI Workloads Break Traditional FinOps Models](https://www.rack2cloud.com/ai-finops-traditional-models/) - Why cost governance models built for cloud compute don't generalize to AI workloads - the same displaced-governance-layer shape the taxonomy's qualification test is built to catch, examined here at the FinOps layer specifically
 - [Exit Cost as a First-Class Metric: The Architecture Constraint Nobody Models](https://www.rack2cloud.com/exit-cost-architecture/) - Exit and egress cost as an architecture constraint most cost models never account for. Adjacent territory - not yet run against the taxonomy's qualification test
