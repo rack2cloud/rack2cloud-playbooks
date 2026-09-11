@@ -23,6 +23,7 @@ The physics come first. If the fabric is wrong, no software fixes it.
 - [**GPU Fabric Physics 2026: Why 800G Isn't Enough for 100k-GPU Training**](https://www.rack2cloud.com/gpu-fabric-physics-800g-100k-training/) - The bandwidth math behind large-scale training fabrics. *Specific bandwidth figures reflect 2026 fabric standards; core physics methodology is durable.*
 - [**GPU Scheduling in Kubernetes: Start Before the Scheduler**](https://www.rack2cloud.com/gpu-scheduling-kubernetes/) - Topology-aware placement, MIG partitioning, and why default Kubernetes scheduling destroys GPU utilization
 - [**The Training/Inference Split Is Now Hardware - What GTC 2026 Actually Changed**](https://www.rack2cloud.com/inference-infrastructure-hardware-split/) - The architectural separation of training and inference workloads is no longer optional
+- [**AI Has Reopened The Capacity Planning Problem**](https://www.rack2cloud.com/ai-capacity-planning/) - Why AI-specific demand patterns break capacity models built for traditional workloads
 - [**The CPU Is Back in the Stack - and Nobody Budgeted for It**](https://www.rack2cloud.com/cpu-coordination-density-agentic-ai/) - Coordination overhead in agentic AI systems is pulling CPU back into capacity planning
 
 **\>\_ SECTION 02A: GO DEEPER - INFERENCE OPERATIONS & COST**
@@ -47,12 +48,15 @@ The governance problems nobody modeled - agents, authorization, control plane ar
 - [**Nobody Knows How Many AI Agents They're Running**](https://www.rack2cloud.com/ai-agent-inventory-gap/) - The agent inventory gap and why it becomes a governance failure
 - [**Your AI Vendor Became Critical Infrastructure Before The Contract Did**](https://www.rack2cloud.com/ai-vendor-sla-infrastructure-gap/) - The SLA gap between vendor dependency and vendor accountability
 - [**Agentic AI Has a Control Plane Problem - Because It Became the Control Plane**](https://www.rack2cloud.com/agentic-ai-control-plane-problem/) - Why agentic systems are operating at control plane scope without control plane governance
+- [**Agentic AI Is Recreating Problems Distributed Systems Already Solved**](https://www.rack2cloud.com/agentic-ai-distributed-systems/) - Applying established distributed-systems failure analysis instead of reinventing it for agentic AI
 - [**The CLI Was Always the Control Plane - Now It's Being Handed to Machines**](https://www.rack2cloud.com/cli-control-plane-governance/) - Execution authority, CLI governance, and what happens when AI becomes the operator
 - [**The Model Answered. Nobody Asked Who Authorized That.**](https://www.rack2cloud.com/llm-authorization-boundary/) - Authorization boundaries when the requester is a model rather than a person
+- [**Who Approved the Model's Output? Building an AI Authorization Trail**](https://www.rack2cloud.com/ai-authorization-trail/) - Practical methodology for implementing the authorization-boundary concept above
 - [**The AI Control Plane Is Becoming the New Shadow IT**](https://www.rack2cloud.com/ai-control-plane-shadow-it/) - Inference routing layers, agent orchestration runtimes, and observability pipelines deployed as invisible infrastructure with no operational owner - the Runtime Authority Vacuum
 - [**Most AI Control Planes Have a Single-Region Failure Domain**](https://www.rack2cloud.com/ai-control-plane-architecture-failure-domain/) - Why control plane resilience is being overlooked in AI platform architecture
 - [**Sovereign AI Requires a Sovereign Control Plane**](https://www.rack2cloud.com/sovereign-ai-control-plane/) - Why data residency alone does not constitute sovereignty - the four runtime planes that must be under local authority
 - [**Kubernetes Is Not an LLM Security Boundary**](https://www.rack2cloud.com/kubernetes-llm-security-boundary/) - The isolation model that fails when the workload is an LLM with tool access
+- [**Confidential Computing Attestation Proves The Software. Not The Person Operating It.**](https://www.rack2cloud.com/attestation-proves-the-software/) - The scope limits of attestation when designing AI trust architectures
 - [**MCP, Tool Use, and the New Attack Surface Nobody Is Mapping**](https://www.rack2cloud.com/mcp-security-architecture/) - The security architecture required as tool-use protocols expand the attack surface
 - [**The AI Observability Layer Is Becoming a Governance System**](https://www.rack2cloud.com/ai-observability-governance/) - Why observability tooling is quietly becoming the enforcement layer for AI governance
 - [**Autonomous Systems Don't Fail - They Drift Until They Break**](https://www.rack2cloud.com/autonomous-systems-drift/) - Operational drift in AI systems and the monitoring model that catches it
@@ -60,6 +64,8 @@ The governance problems nobody modeled - agents, authorization, control plane ar
 - [**Autonomous Operations Require Infrastructure Most Enterprises Don't Have**](https://www.rack2cloud.com/autonomous-operations-infrastructure-maturity/) - Assessing organizational readiness for autonomous operations before deployment
 - [**AI Didn't Reduce Engineering Complexity - It Moved It**](https://www.rack2cloud.com/ai-systems-complexity-moved/) - Where the complexity went and what that means for infrastructure teams
 - [**LLM Ops vs. DevOps: Managing the Lifecycle of Generative Models in Production**](https://www.rack2cloud.com/llm-ops-vs-devops-production-lifecycle/) - How the generative model lifecycle differs from traditional application deployment
+- [**Our AI Infrastructure Was Built For Assistants. It's Being Asked To Run Operations.**](https://www.rack2cloud.com/mission-critical-ai-infrastructure/) - The reliability bar rising from advisory to operational use, and why most AI infrastructure isn't built for it
+- [**Your AI Test Environment Is Becoming A Production Control Plane**](https://www.rack2cloud.com/ai-test-environment-production-control-plane/) - Test/production boundary erosion specific to AI tooling, and how to govern it
 
 **\>\_ SECTION 03: ARCHITECTURE, TOOLS & DECISION FRAMEWORKS**
 
@@ -92,6 +98,11 @@ Pillar pages, sub-domains, learning paths, and tools to validate your AI infrast
 - [Distributed Inference Survivability Engine](https://www.rack2cloud.com/distributed-inference-survivability-engine/) - Evaluate inference placement and survivability under failure (primary tool in AI Inference Cost Architecture)
 - [GPU Utilization & AI Capacity Analyzer](https://www.rack2cloud.com/gpu-utilization-analyzer/) - Analyze GPU allocation, scheduling, and capacity governance
 - [AI Infrastructure Architecture Workbench Hub](https://www.rack2cloud.com/engineering-workbench/ai-infrastructure-architecture/) - Central hub for AI infrastructure hardware and architecture tools
+
+**Audit Service**
+
+- [AI Governance Assessment](https://www.rack2cloud.com/audits/ai-governance-assessment/) - Vendor-agnostic assessment of AI governance, authorization, and control-plane posture
+
 
 **\>\_ THIS PATH IS UPDATED. BEGIN WITH SECTION 01.**
 
