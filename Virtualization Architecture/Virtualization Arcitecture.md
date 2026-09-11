@@ -21,6 +21,7 @@ This sequence is ordered. Start at the top.
 - [What Breaks First After You Leave VMware](https://www.rack2cloud.com/post-vmware-migration-what-breaks/) - The operational failures the migration dashboard doesn't show
 - [Your VMware Exit Was Successful. The First Incident Will Tell You If That's True.](https://www.rack2cloud.com/vmware-exit-successful-first-incident/) - Tooling-declared success versus operational health
 - [The VMware Skills Gap Is the Real Exit Risk](https://www.rack2cloud.com/vmware-skills-gap-exit-risk/) - Why the hardest part of the exit isn't the technology
+- [The Next Virtualization Battle Is Operational Simplicity](https://www.rack2cloud.com/virtualization-operational-simplicity/) - Once the exit decision is behind you, operational simplicity becomes the steady-state evaluation criterion
 
 **\>\_ SECTION 02: GO DEEPER - PHYSICS & FAILURE MODES**
 
@@ -40,6 +41,8 @@ For architects who need to understand the mechanics, not just the outcome.
 - [The Physics of Disconnected Cloud: Modeling Microbursts & Metro Risk](https://www.rack2cloud.com/physics-disconnected-cloud-microbursts-metro-risk/) - Modeling microburst and metro-distance risk under disconnected operation
 - [The "Lift-and-Shift to KVM" Fallacy](https://www.rack2cloud.com/lift-and-shift-kvm-migration-fallacy/) - Why the easy path is usually the wrong one
 - [Proxmox Isn't Replacing VMware. It's Replacing Assumptions.](https://www.rack2cloud.com/proxmox-migration-assumptions/) - The assumptions Proxmox migrations quietly break
+- [Proxmox's Arm64 Bet Runs On Lifecycle Parity, Not A Feature Release](https://www.rack2cloud.com/proxmox-arm64-lifecycle-parity/) - Conditional: vendor-specific framing, but lifecycle parity as an evaluation axis is durable
+- [Virtualization Sprawl: When Every Team Owns A Different Infrastructure Reality](https://www.rack2cloud.com/virtualization-sprawl/) - Governing cross-team virtualization fragmentation as a distinct architectural risk
 
 **\>\_ SECTION 03: ARCHITECTURE, TOOLS & DECISION FRAMEWORKS**
 
@@ -62,6 +65,7 @@ Pillar pages, decision frameworks, and tools to validate your environment.
 - [The Architecture of Migration: Why Licensing Isn't Your Biggest Risk](https://www.rack2cloud.com/architecture-of-migration-licensing-risk/)
 - [vSphere Lifecycle Management Is a Governance Problem — Not a Patching Problem](https://www.rack2cloud.com/vsphere-lifecycle-management-governance/)
 - [The Hypervisor Is Becoming a Policy Enforcement Point](https://www.rack2cloud.com/hypervisor-policy-enforcement-governance/)
+- [Vendor Relationships End. Audit Rights Often Don't.](https://www.rack2cloud.com/audit-rights-outlast-the-exit/) - Post-termination audit rights as an overlooked dimension of total exit cost
 
 **Tools - Engineering Workbench**
 
