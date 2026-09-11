@@ -15,6 +15,7 @@ This path focuses on the economic physics of production inference - execution bu
 This is a sequenced four-part series. Read it in order.
 
 - [AI Workloads Break Traditional FinOps Models](https://www.rack2cloud.com/ai-finops-traditional-models/) - Why traditional FinOps models fail for AI workloads, and the context the four-part series below assumes you already have
+- [Why C-Suite Leaders Struggle With AI Consumption Pricing](https://www.rack2cloud.com/ai-consumption-pricing-governance/) - Conditional: translating inference consumption-pricing models into executive-reportable cost governance
 - [AI Inference Is the New Egress: The Cost Layer Nobody Modeled](https://www.rack2cloud.com/ai-inference-cost-architecture/) - The core cost model: why inference spend behaves like egress and why it's an architectural decision, not a procurement one
 - [Your AI System Doesn't Have a Cost Problem - It Has No Runtime Limits](https://www.rack2cloud.com/ai-inference-execution-budgets/) - Execution budgets: step caps, token ceilings, fan-out limits, and why enforcement in a billing dashboard is already too late
 - [Cost-Aware Model Routing in Production: Why Every Request Shouldn't Hit Your Best Model](https://www.rack2cloud.com/ai-inference-cost-model-routing/) - The routing layer that determines which model handles each request - and why the default answer is always the most expensive one
