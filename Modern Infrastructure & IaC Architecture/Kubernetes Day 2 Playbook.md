@@ -20,6 +20,7 @@ This path is sequenced. The mental model comes before the deep dives.
 - [Your Kubernetes Cluster Isn't Out of CPU - The Scheduler Is Stuck](https://www.rack2cloud.com/kubernetes-scheduler-stuck-cpu-fragmentation/) - The Compute Loop: fixing fragmentation, PDB deadlocks, and bin-packing failures
 - [It's Not DNS (It's MTU): Debugging Kubernetes Ingress](https://www.rack2cloud.com/kubernetes-ingress-502-debug-mtu-dns/) - The Network Loop: unpacking the 5-layer lie of overlay networking
 - [Storage Has Gravity: Debugging PVCs & AZ Lock-in](https://www.rack2cloud.com/kubernetes-pvc-stuck-volume-node-affinity/) - The Storage Loop: surviving the double scheduler and stateful constraints
+- [What Kubernetes Health Checks Actually Guarantee](https://www.rack2cloud.com/kubernetes-health-checks-actually-guarantee/) - What a passing health check does and does not tell you about workload readiness
 - [Kubernetes Resource Requests vs Limits: The Scheduler Guarantees One Thing - The Kernel Enforces Another](https://www.rack2cloud.com/kubernetes-resource-requests-vs-limits/) - The two-layer model that produces OOMKills, CPU throttle, and QoS eviction surprises
 - [VPA vs HPA: Why Most Teams Choose the Wrong Autoscaler](https://www.rack2cloud.com/vpa-vs-hpa-kubernetes/) - The autoscaling decision that intersects with QoS class, eviction risk, and ingress reload frequency
 
