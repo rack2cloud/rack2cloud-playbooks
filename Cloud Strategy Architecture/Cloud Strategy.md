@@ -24,6 +24,7 @@ Cloud strategy fails at the cost layer first. Start here.
 - [The Cloud Bill Is Your Real Org Chart](https://www.rack2cloud.com/cloud-bill-org-chart/) - What spend attribution reveals about who actually owns what
 - [Cost Visibility Is Not Cost Control](https://www.rack2cloud.com/cost-visibility-cost-control/) - Why FinOps dashboards don't fix architectural cost problems
 - [Cloud Cost Is Now an Architectural Constraint](https://www.rack2cloud.com/finops-architecture-cost-constraint/) - Modeling cost as a first-class design input
+- [Your Identity Provider Was Never Your Spend Boundary](https://www.rack2cloud.com/identity-spend-boundary/) - Why identity, not budget policy, is quietly deciding what gets provisioned
 - [The Platform Team Became a Finance Team](https://www.rack2cloud.com/platform-team-cost-governance/) - Cost governance is now a platform engineering responsibility, not a FinOps side project
 
 **\>\_ SECTION 02: GO DEEPER - STRATEGY, GOVERNANCE & DECISION FRAMEWORKS**
@@ -36,14 +37,17 @@ Where workloads belong, how providers actually differ, and what exit looks like.
 - [Most Cloud Exit Strategies Start Too Late](https://www.rack2cloud.com/cloud-exit-strategy/) - The timing signals that should trigger exit planning before pressure forces the decision
 - [Private Cloud Is Back - Because Governance Never Left](https://www.rack2cloud.com/private-cloud-operating-model/) - Why private cloud's return is a governance story, not a cost story
 - [Exit Cost as a First-Class Metric: The Architecture Constraint Nobody Models](https://www.rack2cloud.com/exit-cost-architecture/) - Lock-in isn't in the contract - it's in the networking layer
+- [Why "Portable" Systems Still Fail During the First Real Exit Test](https://www.rack2cloud.com/cloud-exit-validation/) - Declared portability and tested portability are not the same claim
 - [Vendor Lock-In Happens Through Networking - Not APIs](https://www.rack2cloud.com/vendor-lock-in-networking-not-apis/) - Where the real dependency is being built
 - [AWS vs Azure vs GCP: The Decision Framework Most Teams Skip](https://www.rack2cloud.com/cloud-provider-decision-framework-aws-azure-gcp/) - Provider selection based on workload physics, not marketing
 - [Multi-Cloud Doesn't Prevent Outages - It Makes Them Cascade](https://www.rack2cloud.com/multi-cloud-cascading-failure-risks/) - The resilience fallacy of multi-cloud
 - [Your Cloud Provider Is Not Your HA Strategy](https://www.rack2cloud.com/multi-region-cloud-architecture-ha-strategy/) - Why provider-native HA guarantees stop at the region boundary
 - [Your Identity System Is Your Biggest Single Point of Failure](https://www.rack2cloud.com/identity-system-single-point-of-failure/) - Identity as the real availability dependency nobody models
+- [Your Identity Controls Passed. Your Authorization Chain Failed.](https://www.rack2cloud.com/credential-chain-security/) - Why passing identity verification doesn't mean the authorization chain behind it is intact
 - [The Law of Data Gravity: Why Compute Eventually Moves to the Data](https://www.rack2cloud.com/data-gravity-architecture-hybrid-cloud-strategy/) - The physics that determines where your architecture should live
 - [Egress Audit Framework: How to Find Unbounded Movement Paths](https://www.rack2cloud.com/egress-audit-framework/) - A systematic method for finding the data movement paths nobody budgeted for
 - [Google Just Moved the Control Plane Boundary](https://www.rack2cloud.com/control-plane-boundary-kubernetes-scale/) - What GKE Autopilot signals about where control planes are heading
+- [The Rise Of The Cloud Arbitration Layer](https://www.rack2cloud.com/cloud-arbitration-layer/) - A new control-plane dependency emerging above the providers themselves
 - [Your CI/CD Pipeline Is Your Real Infrastructure Control Plane](https://www.rack2cloud.com/ci-cd-control-plane-infrastructure/) - Authority Layer Part 1 - where infrastructure decisions are actually made
 - [The SaaS Control Plane Problem](https://www.rack2cloud.com/saas-control-plane/) - Authority Layer Part 2 - when your control plane is a vendor's product roadmap
 - [The Infrastructure Control Plane Is Consolidating](https://www.rack2cloud.com/infrastructure-control-plane-consolidation/) - Authority Layer Part 3 - what consolidation means for architectural leverage
