@@ -1,6 +1,6 @@
 playbook: Data Protection Architecture
-version: 1.2
-last_reviewed: 2026-08-03
+version: 1.4
+last_reviewed: 2026-09-10
 
 **\>\_ SYSTEM MESSAGE: CURATED PATH LOADED.**
 
