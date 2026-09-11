@@ -20,6 +20,7 @@ Backup is not recovery. Start here.
 - [The Restore Path Is the Most Neglected Part of Backup Design](https://www.rack2cloud.com/restore-path-backup-design/) - Why the architecture that ingests backup data rarely models how it comes back out
 - [The 3-2-1-1-0 Rule: Modernizing Backup Protocols for 2026 Cyber-Resilience](https://www.rack2cloud.com/3-2-1-1-0-backup-rule-2026-cyber-resilience/) - The framework and where most implementations fail at the zero
 - [RTO, RPO, and RTA: Why Recovery Metrics Should Design Your Infrastructure](https://www.rack2cloud.com/rpo-rto-rta-disaster-recovery-architecture/) - Using recovery objectives as architectural inputs, not SLA targets
+- [Recovery Determinism Is Becoming the Real DR Problem](https://www.rack2cloud.com/recovery-determinism/) - Why consistent recovery outcomes matter more than compliance with a declared RTO/RPO
 - [Database Backup Fidelity: Why Crash-Consistent Is Not a Database Backup](https://www.rack2cloud.com/app-consistent-database-backup/) - The consistency gap that produces silent recovery failures
 - [The Connected Air Gap: Why Most Backup Isolation Fails](https://www.rack2cloud.com/connected-air-gap-backup-isolation/) - API reachability equals not air-gapped - the architectural definition that matters
 - [Immutable Backup: Why Object Lock Isn't Enough](https://www.rack2cloud.com/immutable-backup-object-lock/) - What immutability actually requires beyond the storage flag
@@ -32,7 +33,10 @@ Adversarial design, platform decisions, and the failure modes vendors don't docu
 - [Cross-Region Replication Is Not Resilience](https://www.rack2cloud.com/cross-region-replication-resilience/) - Why replication satisfies a checkbox but not a recovery objective
 - [Your Backup System Is Part of the Blast Radius](https://www.rack2cloud.com/backup-blast-radius/) - Why the backup infrastructure itself must be modeled as an attack surface
 - [Ransomware Recovery Time Is an Architecture Problem, Not a Backup Problem](https://www.rack2cloud.com/ransomware-recovery-architecture-problem/) - Why RTO fails under ransomware pressure even when backups are intact
+- [The Recovery Dependency Nobody Admits: Ransom Payment Bans Are Making It Visible](https://www.rack2cloud.com/ransom-payment-ban-recovery-dependency/) - Conditional: the durable lesson is that recovery architecture must not implicitly assume ransom payment as a fallback; the legislative specifics referenced may date
 - [Designing Backup Systems for an Adversary That Knows Your Playbook](https://www.rack2cloud.com/ransomware-backup-architecture/) - Adversarial backup architecture - isolation, identity, and pull-mode design
+- [Restore Testing Is Becoming An Adversarial Discipline](https://www.rack2cloud.com/adversarial-restore-testing/) - Extending adversarial design from backup architecture into test methodology itself
+- [The Server Was Fixed. Persistent Access Wasn't.](https://www.rack2cloud.com/persistent-access-survives-fix/) - Why closing the incident is not the same as closing every access path opened during it
 - [Backups Are Compromised First: Inside Cohesity FortKnox and the Rise of Cyber Vaulting](https://www.rack2cloud.com/backups-are-compromised-first-inside-cohesity-fortknox-and-the-rise-of-cyber-vaulting/) - Why the backup infrastructure is the primary target and what that changes architecturally
 - [Immutability Is Not a Strategy: Engineering Recovery Silos for Ransomware Survival](https://www.rack2cloud.com/recovery-silos-ransomware-survival/) - Why the immutability flag alone does not produce a survivable recovery silo
 - [Incident Recovery Process: Why the Incident Isn't Over After Restore](https://www.rack2cloud.com/incident-recovery-process/) - The post-restore gap most recovery plans never model
@@ -82,7 +86,6 @@ Pillar pages, sub-domains, learning paths, and tools to validate your recovery p
 **Audit Service**
 
 - [Recovery Readiness Assessment](https://www.rack2cloud.com/audits/recovery-readiness-assessment/) - Vendor-agnostic review of your backup architecture, recovery sequencing, and RTO exposure before an incident validates it for you
-
 **\>\_ THIS PATH IS UPDATED. BEGIN WITH SECTION 01.**
 
 **\>\_ THE DISPATCH:** You have been provisioned access to The Dispatch - weekly architectural analysis, no marketing fluff.
