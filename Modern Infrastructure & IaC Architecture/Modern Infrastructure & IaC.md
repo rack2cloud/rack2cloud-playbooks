@@ -17,7 +17,10 @@ The mental model comes first. Start here before touching tooling decisions.
 - [Terraform Is Not Infrastructure as Code - It's Infrastructure as State: Here's the Real Model](https://www.rack2cloud.com/terraform-infrastructure-as-state-drift-management/) - Why state ownership is the real architectural question
 - [Infrastructure Remembers Configuration. It Forgets Intent.](https://www.rack2cloud.com/operational-knowledge-management/) - Why the config a system converges to is not the same thing as the intent it was built for
 - [Infrastructure as a Software Asset: Why Your Data Center Needs a CI/CD Pipeline](https://www.rack2cloud.com/infrastructure-as-a-software-asset/) - The shift from snowflake ops to deterministic, recoverable infrastructure
+- [The Infrastructure Automation Ladder: Why Most Organizations Stall at Level 2](https://www.rack2cloud.com/infrastructure-automation-ladder/) - Diagnosing automation maturity as a staged model, not a binary state
 - [Your CI/CD Pipeline Is Your Real Infrastructure Control Plane](https://www.rack2cloud.com/ci-cd-control-plane-infrastructure/) - Authority Layer Part 1 - where infrastructure decisions are actually made and why that matters
+- [Infrastructure Survivability Starts In The Pipeline](https://www.rack2cloud.com/infrastructure-pipeline-survivability/) - Designing CI/CD pipelines for survivability, not only deployment governance
+- [Why Arm64 First-Class Target Status Matters More Than A Benchmark](https://www.rack2cloud.com/arm64-first-class-target/) - Platform architecture support commitments as a lifecycle decision, not a point-in-time performance comparison
 - [Configuration Drift: Enforcing Infrastructure Immutability](https://www.rack2cloud.com/configuration-drift-immutability/) - Drift is not a monitoring problem - it's a governance failure
 - [Deterministic IaC Pipelines: Turning Terraform Plans into Signed Contracts Between Security and Operations](https://www.rack2cloud.com/deterministic-iac-terraform-policy-as-code/) - How IaC maps to policy enforcement and auditability
 
@@ -27,6 +30,7 @@ The BSL decision, migration mechanics, and the failure modes that surface at Day
 
 - [Terraform vs OpenTofu: Cost, Control, and the Post-BSL Decision (2026)](https://www.rack2cloud.com/terraform-vs-opentofu-2026-post-bsl-decision/) - The control plane question behind the tooling choice
 - [OpenTofu Adoption Is a Control Plane Migration - Not a License Change](https://www.rack2cloud.com/opentofu-enterprise-adoption/) - State migration risk, provider audit, and governance model transition
+- [The Automation Debt Curve: Why Automation Eventually Costs More Than It Saves](https://www.rack2cloud.com/automation-debt-curve/) - Quantifying the point of diminishing automation returns
 - [Project Phoenix: An Enterprise Field Manual for the Great OpenTofu Migration](https://www.rack2cloud.com/enterprise-opentofu-migration-guide-project-phoenix/) - Practical sequencing for production IaC transitions
 - [The Day 2 Operations Debt You Inherited From Terraform](https://www.rack2cloud.com/terraform-day-2-operations-debt/) - The gap between "terraform apply succeeded" and an operable, understood system
 - [The Control Plane Shift: Every Infrastructure Decision Now Looks the Same](https://www.rack2cloud.com/control-plane-shift-infrastructure-decisions-2026/) - The unifying pattern across hypervisor, IaC, Kubernetes, and AI infrastructure decisions
@@ -37,7 +41,10 @@ The BSL decision, migration mechanics, and the failure modes that surface at Day
 - [Policy Drift Is the Real Day-2 Failure in GitOps](https://www.rack2cloud.com/gitops-policy-drift/) - Why config drift detection misses the policy drift that actually causes incidents
 - [Configuration Drift Is the Symptom. Ownership Is the Problem.](https://www.rack2cloud.com/configuration-drift-ownership/) - Drift keeps recurring because nobody owns the state it drifts from
 - [GitOps for Bare Metal: Applying SDLC to Physical Hardware](https://www.rack2cloud.com/gitops-for-bare-metal-applying-sdlc-to-physical-hardware/) - Extending GitOps discipline past the hypervisor boundary to physical hardware lifecycle
+- [Compatibility Is Not The Same Thing As Support](https://www.rack2cloud.com/lifecycle-support-boundary/) - Why "it still runs" is not the same claim as "it is supported"
+- [Infrastructure Standards Without Enforcement Become Documentation Debt](https://www.rack2cloud.com/infrastructure-standards-documentation-debt/) - Conditional: standards that exist on paper but aren't enforced are a governance liability distinct from configuration drift
 - [The Retry Storm Is a Self-Inflicted DDoS](https://www.rack2cloud.com/retry-storm-self-inflicted-ddos/) - How automation without backoff logic creates its own failure mode
+- [IDPs Don't Solve the Ownership Problem. They Defer It.](https://www.rack2cloud.com/internal-developer-platform-ownership/) - Evaluating Internal Developer Platform adoption as an ownership-transfer decision, not a self-service convenience
 
 **\>\_ SECTION 03: ARCHITECTURE, TOOLS & DECISION FRAMEWORKS**
 
@@ -66,10 +73,13 @@ Pillar pages, sub-domains, learning paths, and tools to validate your IaC postur
 - [Sovereign Drift Auditor](https://www.rack2cloud.com/sovereign-drift-auditor/) - Quantify unmanaged drift and audit your terraform plan for unencrypted storage or non-sovereign configurations
 - [GitOps Boundary Mapper](https://www.rack2cloud.com/gitops-boundary-mapper/) - Map where GitOps governance actually stops enforcing policy versus configuration
 - [IaC Governance workbench hub](https://www.rack2cloud.com/engineering-workbench/iac-governance/) - Hub for the Section 02 governance tool cluster
+- [Infrastructure Pipeline Survivability Analyzer](https://www.rack2cloud.com/infrastructure-pipeline-survivability-analyzer/) - Supports "Infrastructure Survivability Starts In The Pipeline"
+- [Automation Debt Calculator](https://www.rack2cloud.com/automation-debt-calculator/) - Supports "The Automation Debt Curve"
 
 **Audit Service**
 
 - [VMware Migration Readiness Assessment](https://www.rack2cloud.com/audits/migration-readiness-assessment/) - If your IaC migration is happening in the context of a VMware exit, this covers the infrastructure readiness layer before you automate the wrong state
+- [Infrastructure Architecture Review](https://www.rack2cloud.com/audits/infrastructure-architecture-review/) - Conditional placement: general-purpose infrastructure architecture review; confirm home with RM if a better-fitting playbook emerges
 
 **\>\_ THIS PATH IS UPDATED. BEGIN WITH SECTION 01.**
 
