@@ -41,6 +41,10 @@ Your DR Test Passed. The Assumptions Didn't. - How DR tests validate procedures 
 
 Why Most Disaster Recovery Tests Don't Test Recovery - The methodology gap between what DR tests measure and what recovery actually requires <https://www.rack2cloud.com/disaster-recovery-testing-failure/>
 
+Recovery Readiness Is Becoming A Board-Level Metric - Translating technical recovery-readiness assessment into executive-reportable accountability, closing the gap between engineering assessment and organizational reporting <https://www.rack2cloud.com/recovery-readiness-metric/>
+
+Your Recovery Architecture Has A Bus Factor Problem - Why a recovery plan can be technically sound and still fail if its execution depends on people who aren't available when the incident hits <https://www.rack2cloud.com/recovery-bus-factor/>
+
 Tools:
 
 Disaster Recovery Authority Analyzer <https://www.rack2cloud.com/disaster-recovery-authority-analyzer/>
