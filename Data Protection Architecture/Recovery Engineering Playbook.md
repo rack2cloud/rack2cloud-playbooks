@@ -1,6 +1,6 @@
 playbook: Recovery Engineering
-version: 1.5
-last_reviewed: 2026-09-10
+version: 1.6
+last_reviewed: 2026-10-21
 
 **  
 \>\_ SYSTEM MESSAGE: CURATED PATH LOADED.**
@@ -72,6 +72,7 @@ Designing Backup Systems for an Adversary That Knows Your Playbook - The threat 
 Your Backup System Is Part of the Blast Radius - Why the backup plane itself is inside the attack surface, and the architecture decisions that determine whether backups survive the incident that made them necessary <https://www.rack2cloud.com/backup-blast-radius/>
 
 Recovery Doesn't End the Incident - The three-tier framework: why restore and recovery are not the same state, why most organizations stop at restore and call it done, and what the six closure gates actually require before an incident can be formally closed <https://www.rack2cloud.com/incident-recovery-process/>
+Patch Rollback Risk: When Recovery Reintroduces the Exposure You Just Closed - Conditional: rollback as a security-state decision, not only a recovery action; placement in this playbook pending RM confirmation <https://www.rack2cloud.com/patch-rollback-risk/>
 
 Immutable Backup: Why Object Lock Isn't Enough - The protection plane vs recovery plane distinction - and why immutability protects the backup without validating that the restore will succeed <https://www.rack2cloud.com/immutable-backup-object-lock/>
 
