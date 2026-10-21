@@ -1,6 +1,6 @@
 playbook: Kubernetes Day 2
-version: 1.2
-last_reviewed: 2026-09-10
+version: 1.3
+last_reviewed: 2026-10-21
 
 **\>\_ SYSTEM MESSAGE: CURATED PATH LOADED.**
 
@@ -22,6 +22,7 @@ This path is sequenced. The mental model comes before the deep dives.
 - [Storage Has Gravity: Debugging PVCs & AZ Lock-in](https://www.rack2cloud.com/kubernetes-pvc-stuck-volume-node-affinity/) - The Storage Loop: surviving the double scheduler and stateful constraints
 - [What Kubernetes Health Checks Actually Guarantee](https://www.rack2cloud.com/kubernetes-health-checks-actually-guarantee/) - What a passing health check does and does not tell you about workload readiness
 - [Kubernetes Resource Requests vs Limits: The Scheduler Guarantees One Thing - The Kernel Enforces Another](https://www.rack2cloud.com/kubernetes-resource-requests-vs-limits/) - The two-layer model that produces OOMKills, CPU throttle, and QoS eviction surprises
+- [Kubernetes Swap Turns an OOMKill Into a Latency Problem](https://www.rack2cloud.com/kubernetes-swap-memory-request/) - How enabling swap changes the failure signature of memory pressure from a hard kill to silent latency degradation
 - [VPA vs HPA: Why Most Teams Choose the Wrong Autoscaler](https://www.rack2cloud.com/vpa-vs-hpa-kubernetes/) - The autoscaling decision that intersects with QoS class, eviction risk, and ingress reload frequency
 
 **\>\_ SECTION 02: GO DEEPER - PLATFORM FAILURE MODES & RUNTIME LAYER**
