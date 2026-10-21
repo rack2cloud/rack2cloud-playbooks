@@ -1,6 +1,6 @@
 playbook: Data Protection Architecture
-version: 1.4
-last_reviewed: 2026-09-10
+version: 1.5
+last_reviewed: 2026-10-21
 
 **\>\_ SYSTEM MESSAGE: CURATED PATH LOADED.**
 
@@ -22,6 +22,7 @@ Backup is not recovery. Start here.
 - [RTO, RPO, and RTA: Why Recovery Metrics Should Design Your Infrastructure](https://www.rack2cloud.com/rpo-rto-rta-disaster-recovery-architecture/) - Using recovery objectives as architectural inputs, not SLA targets
 - [Recovery Determinism Is Becoming the Real DR Problem](https://www.rack2cloud.com/recovery-determinism/) - Why consistent recovery outcomes matter more than compliance with a declared RTO/RPO
 - [Database Backup Fidelity: Why Crash-Consistent Is Not a Database Backup](https://www.rack2cloud.com/app-consistent-database-backup/) - The consistency gap that produces silent recovery failures
+- [Your AI Workload RPO Was Met. The Restore Still Returns Wrong Answers.](https://www.rack2cloud.com/ai-workload-rpo/) - Why meeting RPO does not guarantee consistent model, index, and data state after restore
 - [The Connected Air Gap: Why Most Backup Isolation Fails](https://www.rack2cloud.com/connected-air-gap-backup-isolation/) - API reachability equals not air-gapped - the architectural definition that matters
 - [Immutable Backup: Why Object Lock Isn't Enough](https://www.rack2cloud.com/immutable-backup-object-lock/) - What immutability actually requires beyond the storage flag
 - [Disaster Recovery Authority: The Missing Layer in Most Recovery Plans](https://www.rack2cloud.com/disaster-recovery-authority/) - Who is authorized to declare a disaster and invoke failover, and why most plans never define it
@@ -32,11 +33,13 @@ Adversarial design, platform decisions, and the failure modes vendors don't docu
 
 - [Cross-Region Replication Is Not Resilience](https://www.rack2cloud.com/cross-region-replication-resilience/) - Why replication satisfies a checkbox but not a recovery objective
 - [Your Backup System Is Part of the Blast Radius](https://www.rack2cloud.com/backup-blast-radius/) - Why the backup infrastructure itself must be modeled as an attack surface
+- [The Vendor Retention Window Wasn't a Recovery Control](https://www.rack2cloud.com/vendor-retention-window/) - Why provider-side retention is not an independently controlled, recoverable backup
 - [Ransomware Recovery Time Is an Architecture Problem, Not a Backup Problem](https://www.rack2cloud.com/ransomware-recovery-architecture-problem/) - Why RTO fails under ransomware pressure even when backups are intact
 - [The Recovery Dependency Nobody Admits: Ransom Payment Bans Are Making It Visible](https://www.rack2cloud.com/ransom-payment-ban-recovery-dependency/) - Conditional: the durable lesson is that recovery architecture must not implicitly assume ransom payment as a fallback; the legislative specifics referenced may date
 - [Designing Backup Systems for an Adversary That Knows Your Playbook](https://www.rack2cloud.com/ransomware-backup-architecture/) - Adversarial backup architecture - isolation, identity, and pull-mode design
 - [Restore Testing Is Becoming An Adversarial Discipline](https://www.rack2cloud.com/adversarial-restore-testing/) - Extending adversarial design from backup architecture into test methodology itself
 - [The Server Was Fixed. Persistent Access Wasn't.](https://www.rack2cloud.com/persistent-access-survives-fix/) - Why closing the incident is not the same as closing every access path opened during it
+- [Rotating Credentials Is Not Revoking Them. The Revocation Unit Decides Whether You Can.](https://www.rack2cloud.com/revocation-unit-credential-rotation/) - Conditional: overlaps thematically with the item above; the distinct contribution is the granularity at which revocation actually takes effect
 - [Backups Are Compromised First: Inside Cohesity FortKnox and the Rise of Cyber Vaulting](https://www.rack2cloud.com/backups-are-compromised-first-inside-cohesity-fortknox-and-the-rise-of-cyber-vaulting/) - Why the backup infrastructure is the primary target and what that changes architecturally
 - [Immutability Is Not a Strategy: Engineering Recovery Silos for Ransomware Survival](https://www.rack2cloud.com/recovery-silos-ransomware-survival/) - Why the immutability flag alone does not produce a survivable recovery silo
 - [Incident Recovery Process: Why the Incident Isn't Over After Restore](https://www.rack2cloud.com/incident-recovery-process/) - The post-restore gap most recovery plans never model
