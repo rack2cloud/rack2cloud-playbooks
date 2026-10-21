@@ -1,6 +1,6 @@
 playbook: Virtualization Architecture
-version: 1.4
-last_reviewed: 2026-09-10
+version: 1.5
+last_reviewed: 2026-10-21
 
 **\>\_ SYSTEM MESSAGE: CURATED PATH LOADED.**
 
@@ -29,6 +29,7 @@ For architects who need to understand the mechanics, not just the outcome.
 
 - [Nutanix AHV Operations: What Changes After VMware Migration](https://www.rack2cloud.com/nutanix-ahv-operations-after-vmware/) - What actually changes operationally once you're running AHV
 - [The CVM Tax: Why Mis-Sized VMs Kill AHV Performance](https://www.rack2cloud.com/cvm-tax-nutanix-ahv-performance/) - The invisible I/O penalty that doesn't show up in Prism
+- [Two Nodes Can Preserve Availability. They Can't Preserve N+1 Capacity.](https://www.rack2cloud.com/two-node-edge-deployment/) - Why small and edge clusters must be sized against capacity after a node failure, not just availability
 - [The Nutanix Migration Stutter: Why AHV Cutovers Freeze High-IO Workloads](https://www.rack2cloud.com/nutanix-migration-stutter-ahv-fix/) - The final delta sync failure mode and how to prevent it
 - [The Dashboard Said the Migration Succeeded](https://www.rack2cloud.com/migration-dashboard-failure/) - When the tooling reports success and the workload disagrees
 - [The VM That Survived the Migration But Lost Its Identity](https://www.rack2cloud.com/vmware-migration-issues-identity-gap/) - Identity and configuration drift the migration tooling won't flag
@@ -38,6 +39,8 @@ For architects who need to understand the mechanics, not just the outcome.
 - [CPU Ready vs. CPU Wait: Why Your Cluster Looks Fine but Feels Slow](https://www.rack2cloud.com/cpu-ready-vs-cpu-wait-why-your-cluster-looks-fine-but-feels-slow/) - Distinguishing scheduler contention signals before they read as production failures
 - [Resource Pooling Physics: CPU Wait & Memory Ballooning](https://www.rack2cloud.com/resource-pooling-physics-cpu-wait-memory-ballooning/) - The contention mechanics that cause silent degradation
 - [The Storage Handshake Is Dead: Why HCI Redefines the Rules](https://www.rack2cloud.com/architecture-hci-vs-3-tier-storage-handshake/) - How HCI breaks the assumptions of 3-tier storage handshakes
+- [KMS Circular Dependency: The Cluster Came Back. The Keys Didn't.](https://www.rack2cloud.com/kms-circular-dependency-encrypted-storage/) - Mapping key-management dependencies in cold-start and restart sequencing for encrypted storage
+- [GPU Passthrough Works. Can You Still Move the VM?](https://www.rack2cloud.com/gpu-passthrough-vm-migration/) - Conditional: passthrough trades away live mobility and maintenance flexibility; sits at the Virtualization / AI Infrastructure seam, so it is placed here because the constraint is hypervisor-level
 - [The Physics of Disconnected Cloud: Modeling Microbursts & Metro Risk](https://www.rack2cloud.com/physics-disconnected-cloud-microbursts-metro-risk/) - Modeling microburst and metro-distance risk under disconnected operation
 - [The "Lift-and-Shift to KVM" Fallacy](https://www.rack2cloud.com/lift-and-shift-kvm-migration-fallacy/) - Why the easy path is usually the wrong one
 - [Proxmox Isn't Replacing VMware. It's Replacing Assumptions.](https://www.rack2cloud.com/proxmox-migration-assumptions/) - The assumptions Proxmox migrations quietly break
