@@ -1,6 +1,6 @@
 playbook: Cloud Strategy
-version: 1.4
-last_reviewed: 2026-09-10
+version: 1.5
+last_reviewed: 2026-10-21
 
 **_\>_ SYSTEM MESSAGE: CURATED PATH LOADED.\_**
 
@@ -50,6 +50,7 @@ Where workloads belong, how providers actually differ, and what exit looks like.
 - [The Rise Of The Cloud Arbitration Layer](https://www.rack2cloud.com/cloud-arbitration-layer/) - A new control-plane dependency emerging above the providers themselves
 - [Your CI/CD Pipeline Is Your Real Infrastructure Control Plane](https://www.rack2cloud.com/ci-cd-control-plane-infrastructure/) - Authority Layer Part 1 - where infrastructure decisions are actually made
 - [The SaaS Control Plane Problem](https://www.rack2cloud.com/saas-control-plane/) - Authority Layer Part 2 - when your control plane is a vendor's product roadmap
+- [BYOC Isn't a Deployment Decision. It's a Control-Plane Delegation Nobody Scoped.](https://www.rack2cloud.com/byoc-delegation/) - Conditional: partial overlap with the SaaS control plane content; the distinct angle is scoping the authority delegated to a vendor control plane running in your account
 - [The Infrastructure Control Plane Is Consolidating](https://www.rack2cloud.com/infrastructure-control-plane-consolidation/) - Authority Layer Part 3 - what consolidation means for architectural leverage
 
 **\>\_ SECTION 03: ARCHITECTURE, TOOLS & DECISION FRAMEWORKS**
